@@ -28,9 +28,10 @@ const NavBar = () => {
             href: "/pages/toDoList"
         },
         {
-            name: "todoById",
-            href: "/pages/1"
+            name: "posts",
+            href: "/pages/posts"
         }
+        
     ];
 
     return (
