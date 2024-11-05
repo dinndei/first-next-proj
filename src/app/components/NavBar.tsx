@@ -1,11 +1,7 @@
 import Link from "next/link";
 
 const NavBar = () => {
-    interface ButtonLinkProps {
-        name: string;
-        href: string;
-    }
-
+ 
     const arr: ButtonLinkProps[] = [
         {
             name: "first file",
@@ -15,10 +11,7 @@ const NavBar = () => {
             name: "login",
             href: "/pages/login"
         },
-        {
-            name: "services",
-            href: "/pages/service"
-        },
+       
         {
             name: "contact",
             href: "/pages/contact"
