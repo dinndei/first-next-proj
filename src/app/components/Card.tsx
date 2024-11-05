@@ -11,6 +11,7 @@ const Card = () => {
                 />
             </div>
             <div className="">desc</div>
+           
             <div className="button">button</div>
         </div>
     );

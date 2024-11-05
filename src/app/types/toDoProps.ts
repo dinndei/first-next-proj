@@ -1,3 +1,4 @@
 interface CardToDoProps {
-    item: todo;
+    item: todo,
+    displayButton:boolean
 }
